@@ -1,4 +1,4 @@
-package com.yourcodereview.ipcounter;
+package com.yourcodereview.ipcounter.util;
 
 public class IpParser {
     public static final long MAX_IP_CELL_VALUE = 256L;
