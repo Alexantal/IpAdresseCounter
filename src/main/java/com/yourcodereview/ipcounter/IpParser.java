@@ -2,7 +2,6 @@ package com.yourcodereview.ipcounter;
 
 public class IpParser {
     public static final long MAX_IP_CELL_VALUE = 256L;
-    public static final long MAX_IP_INDEX_VALUE = 256L * 256 * 256 * 256;
 
     public static long getIpIndex(String parsedLine) {
         String[] ipParts = parsedLine.split("\\.");

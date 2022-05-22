@@ -15,7 +15,6 @@ public class Main {
 
             while ((line = reader.readLine()) != null) {
                 long index = IpParser.getIpIndex(line);
-                System.out.println(index);
                 ipCounter.setIpArrayBit(index);
             }
 
